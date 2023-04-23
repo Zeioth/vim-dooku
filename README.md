@@ -12,6 +12,43 @@ This project is not a single project. Instead, you download only the documentati
 
 * Oh no, I have to install 3 plugins instead of one.
 
+
+### How to use
+
+Install the plugins you need. Copy this on your vimconfig, and delete what you don't need:
+
+```
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim doxygen
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Enable it for the next languages
+let g:doxygen_include_filetypes = ['c', 'cpp', 'cs', 'python', 'd', 'fortran', 'java', 'perl', 'vhdl', 'objc', 'php']
+
+" Enable the keybindings, for the included_filetypes
+augroup doxygen_mappings
+  for ft in g:doxygen_include_filetypes
+    execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-h> :<C-u>DoxygenOpen<CR>'
+    "execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-k> :<C-u>DoxygenRegen<CR>'
+  endfor
+augroup END
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim typedoc
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Enable it for the next languages
+let g:typedoc_include_filetypes = ['typescript']
+
+" Enable the keybindings for the languages in g:typedoc_include_filetypes
+augroup typedoc_mappings
+  for ft in g:typedoc_include_filetypes
+    execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-h> :<C-u>TypedocOpen<CR>'
+    "execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-k> :<C-u>TypedocRegen<CR>'
+  endfor
+augroup END
+```
+
 ## Projects
 
 * [vim-doxygen](https://github.com/Zeioth/vim-doxygen)
