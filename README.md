@@ -22,8 +22,8 @@ This project is not a single project. Instead, you download only the documentati
 
 ## Not yet available (Fork PRs are welcome)
 
-* vim-rustdoc
-* vim-jsdoc
+* [vim-rustdoc](https://github.com/Zeioth/vim-rustdoc)
+* [vim-jsdoc](https://github.com/Zeioth/vim-jsdoc)
 
 ## Where do that cheesy name come from?
 From [Star Wars](https://starwars.fandom.com/wiki/Dooku).
