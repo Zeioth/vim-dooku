@@ -1,7 +1,4 @@
-# vim-dooku
-(Highly customizable) Documentation generator(s) for VIM.
-
-## What is this
+# What is this
 This project is not a single project. Instead, you download only the documentation generators you need.
 
 ### Adventages of this approach
