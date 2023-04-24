@@ -20,11 +20,9 @@ This project is not a single project. Instead, download only the documentation g
 ## Highly experimental
 
 * [vim-rustdoc](https://github.com/Zeioth/vim-rustdoc)
+* [vim-godoc](https://github.com/Zeioth/vim-godoc)
 * [vim-jsdoc](https://github.com/Zeioth/vim-jsdoc)
 
-## Not yet ready
-
-* [vim-godoc](https://github.com/Zeioth/vim-godoc)
 
 ### How to use
 
