@@ -4,7 +4,7 @@ This project is not a single project. Instead, download only the documentation g
 ### Adventages of this approach
 
 * Easier to maintain: [KISS](https://en.wikipedia.org/wiki/KISS_principle).
-* Easier to hack: Having each plugin self-contained, make it easier to fork and modify.
+* Easier to hack: Having each plugin self-contained, makes it easier to fork and modify.
 * Common codebase: All plugins share the same architecture, and most options.
 * Together but not mixed: There is an adventage in keeping the same options for different documentation generators separated. This allows heavy customization.
 
