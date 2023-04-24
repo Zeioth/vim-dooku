@@ -22,6 +22,10 @@ This project is not a single project. Instead, download only the documentation g
 * [vim-rustdoc](https://github.com/Zeioth/vim-rustdoc)
 * [vim-jsdoc](https://github.com/Zeioth/vim-jsdoc)
 
+## Not yet ready
+
+* [vim-godoc](https://github.com/Zeioth/vim-godoc)
+
 ### How to use
 
 Install the plugins you need. Copy this on your vimconfig, and delete what you don't need:
