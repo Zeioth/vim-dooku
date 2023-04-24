@@ -91,6 +91,21 @@ augroup jsdoc_mappings
     "execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-k> :<C-u>JsdocRegen<CR>'
   endfor
 augroup END
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim godoc
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Enable it for the next languages
+let g:godoc_include_filetypes = ['go']
+
+" Enable the keybindings for the languages in g:godoc_include_filetypes
+augroup godoc_mappings
+  for ft in g:godoc_include_filetypes
+    execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-h> :<C-u>GodocOpen<CR>'
+    "execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-k> :<C-u>GodocRegen<CR>'
+  endfor
+augroup END
 ```
 ## Will you unify all this projects in the future into a single plugin? 
 Right now I don't see any big adventage in doing so.
