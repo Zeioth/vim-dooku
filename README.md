@@ -42,6 +42,7 @@ augroup doxygen_mappings
   endfor
 augroup END
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim typedoc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -57,6 +58,7 @@ augroup typedoc_mappings
   endfor
 augroup END
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim rustdoc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -71,6 +73,7 @@ augroup rustdoc_mappings
     "execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-k> :<C-u>rustdocRegen<CR>'
   endfor
 augroup END
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim jsdoc
