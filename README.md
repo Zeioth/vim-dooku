@@ -49,12 +49,12 @@ augroup typedoc_mappings
 augroup END
 ```
 
-## Projects
+## Stable projects
 
 * [vim-doxygen](https://github.com/Zeioth/vim-doxygen)
 * [vim-typedoc](https://github.com/Zeioth/vim-typedoc)
 
-## Not yet available (Fork PRs are welcome)
+## Highly experimental
 
 * [vim-rustdoc](https://github.com/Zeioth/vim-rustdoc)
 * [vim-jsdoc](https://github.com/Zeioth/vim-jsdoc)
