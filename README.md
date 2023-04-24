@@ -108,7 +108,7 @@ augroup godoc_mappings
 augroup END
 ```
 ## Will you unify all this projects in the future into a single plugin? 
-Right now I don't see any big adventage in doing so.
+It might hapen. But right now I don't see any big adventage in doing so.
 
 ## Where do that cheesy name come from?
 From [Star Wars](https://starwars.fandom.com/wiki/Dooku).
