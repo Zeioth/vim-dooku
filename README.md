@@ -23,8 +23,6 @@ This project is not a single project. Instead, download only the documentation g
 * [vim-godoc](https://github.com/Zeioth/vim-godoc)
 * [vim-jsdoc](https://github.com/Zeioth/vim-jsdoc)
 
-If you are not in need of heavy customization, please check [vim-doge](https://github.com/kkoomen/vim-doge).
-
 ### How to use
 
 Install the plugins you need. Copy this on your vimconfig, and delete what you don't need:
