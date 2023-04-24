@@ -47,6 +47,36 @@ augroup typedoc_mappings
     "execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-k> :<C-u>TypedocRegen<CR>'
   endfor
 augroup END
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim rustdoc
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Enable it for the next languages
+let g:rustdoc_include_filetypes = ['rust']
+
+" Enable the keybindings for the languages in g:rustdoc_include_filetypes
+augroup rustdoc_mappings
+  for ft in g:rustdoc_include_filetypes
+    execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-h> :<C-u>rustdocOpen<CR>'
+    "execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-k> :<C-u>rustdocRegen<CR>'
+  endfor
+augroup END
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim jsdoc
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Enable it for the next languages
+let g:jsdoc_include_filetypes = ['javascript']
+
+" Enable the keybindings for the languages in g:jsdoc_include_filetypes
+augroup jsdoc_mappings
+  for ft in g:jsdoc_include_filetypes
+    execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-h> :<C-u>jsdocOpen<CR>'
+    "execute 'autocmd FileType ' . ft . ' nnoremap <buffer> <C-k> :<C-u>jsdocRegen<CR>'
+  endfor
+augroup END
 ```
 
 ## Stable projects
