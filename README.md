@@ -12,6 +12,15 @@ This project is not a single project. Instead, you download only the documentati
 
 * Oh no, I have to install 3 plugins instead of one.
 
+## Stable projects
+
+* [vim-doxygen](https://github.com/Zeioth/vim-doxygen)
+* [vim-typedoc](https://github.com/Zeioth/vim-typedoc)
+
+## Highly experimental
+
+* [vim-rustdoc](https://github.com/Zeioth/vim-rustdoc)
+* [vim-jsdoc](https://github.com/Zeioth/vim-jsdoc)
 
 ### How to use
 
@@ -78,16 +87,6 @@ augroup jsdoc_mappings
   endfor
 augroup END
 ```
-
-## Stable projects
-
-* [vim-doxygen](https://github.com/Zeioth/vim-doxygen)
-* [vim-typedoc](https://github.com/Zeioth/vim-typedoc)
-
-## Highly experimental
-
-* [vim-rustdoc](https://github.com/Zeioth/vim-rustdoc)
-* [vim-jsdoc](https://github.com/Zeioth/vim-jsdoc)
 
 ## Where do that cheesy name come from?
 From [Star Wars](https://starwars.fandom.com/wiki/Dooku).
